@@ -7,32 +7,36 @@ body{
 }
 
 
-#aboutus{
-    margin-top: 80px;
-}
-
 .line{
     height: 6px;
     background-color: black;
     width: 70px;
     margin: 8px auto;   
 }
-
-
-
+#aboutus{
+    box-shadow: 5px 5px 18px white;
+}
+#shop{
+    box-shadow: 5px 5px 18px white;
+}
+#faq{
+    box-shadow: 5px 5px 18px white;
+}
 
 #contact {
-    background : rgb(250, 190, 190);
- 
+   
+box-shadow: 5px 5px 18px white; 
 
 
 }
 #contact iframe{
-    width: 100%;
+    width: 99%;
+    display:inherit
     
 }
+
 .contact1 a{
-    color: white;
+    color: rgb(1, 80, 31);
     text-shadow: none;
 }
 
@@ -61,4 +65,13 @@ body{
     right: 60px;
     z-index: 99;
     top:0px;
+}
+.container{
+    background-image:-webkit-linear-gradient( rgb(216, 255, 184), rgb(140, 233, 240));
+}
+#logo{
+    height: 200px;
+    margin-top: 65px;
+    box-shadow: 5px 5px 18px teal;
+    display:unset;
 }
