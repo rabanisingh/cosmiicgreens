@@ -1,4 +1,64 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     text-align: center;
-    background-color: honeydew;
+}
+
+
+#aboutus{
+    margin-top: 80px;
+}
+
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;   
+}
+
+
+
+
+#contact {
+    background : rgb(250, 190, 190);
+ 
+
+
+}
+#contact iframe{
+    width: 100%;
+    
+}
+.contact1 a{
+    color: white;
+    text-shadow: none;
+}
+
+.contact1 p{
+    display: inline;
+    font-size:18px;
+}
+
+.header p{
+    font-family: 'Righteous', cursive;
+    font-size: 70px;
+    display: inline;
+}
+.header img{
+    height:120px;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+.header{
+    background-color: rgb(252, 252, 252);
+    text-align:center;
+    box-shadow: 5px 5px 18px rgb(161, 234, 247);
+    position:fixed;
+    width:90%;
+    right: 60px;
+    z-index: 99;
+    top:0px;
 }
