@@ -15,24 +15,27 @@ body{
 }
 #aboutus{
     box-shadow: 5px 5px 18px white;
+    background-image:-webkit-linear-gradient(  rgb(255, 255, 255), rgba(250, 249, 182, 0.7));
 }
 #shop{
     box-shadow: 5px 5px 18px white;
+    background-image: -webkit-linear-gradient( white, rgb(255, 201, 176, 0.8));
+   
 }
 #faq{
     box-shadow: 5px 5px 18px white;
+    background-image:-webkit-linear-gradient(  rgb(255, 255, 255), rgba(196, 251, 253, 0.8));
 }
 
 #contact {
    
 box-shadow: 5px 5px 18px white; 
+background-image:-webkit-linear-gradient(  rgb(255, 255, 255), rgba(227, 206, 253, 0.6));
 
 
 }
 #contact iframe{
-    width: 99%;
-    display:inherit
-    
+   offset-distance: 0px;
 }
 
 .contact1 a{
@@ -66,12 +69,14 @@ box-shadow: 5px 5px 18px white;
     z-index: 99;
     top:0px;
 }
-.container{
-    background-image:-webkit-linear-gradient( rgb(216, 255, 184), rgb(140, 233, 240));
-}
+
 #logo{
     height: 200px;
     margin-top: 65px;
-    box-shadow: 5px 5px 18px teal;
+    box-shadow: 5px 5px 18px rgb(152, 240, 240);
     display:unset;
+}
+#mycarousel img{
+    height: 300px;
+
 }
