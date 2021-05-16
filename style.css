@@ -31,11 +31,12 @@ body{
    
 box-shadow: 5px 5px 18px white; 
 background-image:-webkit-linear-gradient(  rgb(255, 255, 255), rgba(227, 206, 253, 0.6));
-
+margin-bottom: 20px;
 
 }
 #contact iframe{
-   offset-distance: 0px;
+ margin-bottom: 20px;
+ margin-top: 20px;
 }
 
 .contact1 a{
@@ -48,35 +49,37 @@ background-image:-webkit-linear-gradient(  rgb(255, 255, 255), rgba(227, 206, 25
     font-size:18px;
 }
 
-.header p{
-    font-family: 'Righteous', cursive;
-    font-size: 70px;
-    display: inline;
-}
-.header img{
-    height:120px;
-    margin-top: 10px;
-    margin-right: 50px;
-    margin-bottom: 15px;
-}
-.header{
-    background-color: rgb(252, 252, 252);
-    text-align:center;
-    box-shadow: 5px 5px 18px rgb(161, 234, 247);
-    position:fixed;
-    width:90%;
-    right: 60px;
-    z-index: 99;
-    top:0px;
-}
-
 #logo{
-    height: 200px;
-    margin-top: 65px;
+    height: 100px;
+    margin-top: 75px;
+    margin-bottom: 5px;
     box-shadow: 5px 5px 18px rgb(152, 240, 240);
-    display:unset;
 }
 #mycarousel img{
-    height: 300px;
+    height: 400px;
 
+}
+#mycarousel{
+    margin-bottom: 100px;;
+}
+#mycarousel p{
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+    margin-top:10px;
+
+}
+#header p{
+    color: rgb(6, 124, 51);
+    font-size: 65px;
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    margin-top: -85px;
+}
+
+#address p{
+    font-family: 'fantasy', cursive;
+    font-size: 25px;
+}
+#address{
+    margin-top:70px;
 }
